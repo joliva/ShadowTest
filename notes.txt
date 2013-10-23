@@ -1,0 +1,16 @@
+Build and Deployment Speed
+--------------------------
+
+Notes
+- Tested on mid-2010 vintage 2.53 GHz Intel Core i5 MacBook Pro.
+- Very simple Alloy test app: https://github.com/joliva/ShadowTest
+- Running TiShadow server locally.
+- Running apps on iPhone retina/tall iOS 6.1 simulator.
+
+Build and deploy from clean project:
+-	Normal build/deploy to iOS simulator: 68s
+-	TiShadow build/deploy to iOS simulator running the TiShadow app: 3s
+
+Incremental build/deploy after adding 2 buttons to View 1:
+-	Normal incremental build/deploy to iOS simulator: 19s
+-	TiShadow incremental build/deploy to iOS simulator running the TiShadow app: <2s
