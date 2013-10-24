@@ -1,8 +1,11 @@
 <Alloy>
 	<Window>
 		<ScrollableView id="scroller">
-			<View backgroundColor="#a00">
+			<!--View id='redView' backgroundColor="#a00" layout='vertical'-->
+			<View id='redView' backgroundColor="#a00">
 				<Label onClick="addView">View 1</Label>
+				<!--Button title='Button 1' top=40/-->
+				<!--Button title='Button 2' top=10/-->
 			</View>
 			<View backgroundColor="#0a0">
 				<Label>View 2</Label>
